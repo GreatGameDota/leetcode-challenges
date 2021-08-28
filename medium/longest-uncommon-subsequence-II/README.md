@@ -11,4 +11,4 @@ Runtime: 12 ms
 
 Memory Usage: 10.8 mb
 
-Details: The problem is finding the longest string in a list that isn't a substring of any other strings in the list. My solution is a brute force solution where I compare every string in the list with every other string. My algorithm has a runtime of O(k * l * n^2) where k is the length of one string, l is the length of another string, and n is the length of the list of strings. This solution is far from the most efficient algorithm.
+Details: The problem is finding the longest string in a list that isn't a substring of any other strings in the list. My solution is a brute force solution where I compare every string in the list with every other string. My algorithm has a runtime of O(k * l * n^2) where k is the length of one string, l is the length of another string, and n is the length of the list of strings. This solution is far from the most efficient algorithm. A better runtime algorithm would be just simplifying my isSubsequence function to have a runtime of O(s) where s is the length of one string.
