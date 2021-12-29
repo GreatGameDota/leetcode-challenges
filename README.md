@@ -9,6 +9,8 @@ Simple repo to store all LeetCode challenges I've completed in one place.
 
 ### Easy: 11
 
-### Medium: 16
+### Medium: 17
 
 ### Hard: 1
+
+<i>Some problems' difficulty level changed after I completed them</i>
