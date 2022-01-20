@@ -3,7 +3,7 @@
 
 ## Easy
 
-Date uploaded: 1/18/22
+Date uploaded: 1/19/22
 
 Language: C++
 
