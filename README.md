@@ -9,7 +9,7 @@ Simple repo to store all LeetCode challenges I've completed in one place.
 
 ### Easy: 36
 
-### Medium: 52
+### Medium: 53
 
 ### Hard: 1
 
