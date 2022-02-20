@@ -12,8 +12,9 @@ class Solution
     };
 
 public:
-    bool ret = true;
-    bool canFinish(int numCourses, vector<vector<int>> &prerequisites)
+    bool cycle = false;
+    vector<int> ret;
+    vector<int> findOrder(int numCourses, vector<vector<int>> &prerequisites)
     {
         vector<Node> graph;
         for (int i = 0; i < numCourses; i++)
@@ -25,7 +26,10 @@ public:
         for (Node &n : graph)
             dfs(&n);
 
-        return ret;
+        if (!cycle)
+            return ret;
+        else
+            return vector<int>();
     }
 
     void dfs(Node *n)
@@ -44,8 +48,9 @@ public:
             if (!no->seen)
                 dfs(no);
             else if (no->recStack)
-                ret = false;
+                cycle = true;
         }
+        ret.push_back(n->val);
         n->recStack = false;
     }
 };
