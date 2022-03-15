@@ -46,7 +46,6 @@ public:
                     head2 = temp->next;
                     ret2 = head2;
                 }
-                temp = temp->next;
             }
             else
             {
@@ -63,8 +62,8 @@ public:
                         curr = curr->next;
                     }
                 }
-                temp = temp->next;
             }
+            temp = temp->next;
         }
         if (head2)
             head2->next = nullptr;
