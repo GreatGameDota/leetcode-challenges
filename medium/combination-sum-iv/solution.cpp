@@ -3,7 +3,7 @@ class Solution
 public:
     int combinationSum4(vector<int> &nums, int target)
     {
-        vector<int> memo(target + 1, -1);
+        vector<int> memo(target, -1);
         return backtrack(0, nums, target, memo);
     }
 
