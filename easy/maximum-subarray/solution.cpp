@@ -10,3 +10,5 @@ public:
             maxNum = max(maxNum, nums[i]);
         }
         return maxNum;
+    }
+};
