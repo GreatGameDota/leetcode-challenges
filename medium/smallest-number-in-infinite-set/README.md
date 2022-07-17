@@ -3,7 +3,7 @@
 
 ## Medium
 
-Date uploaded: 7/10/22
+Date uploaded: 7/10/22 (completed the previous day)
 
 Language: C++
 
